@@ -8,7 +8,8 @@ class Member extends Model
 {
     protected $fillable = [
         'name', 
-        'phone', 
+        'phone',
+        'username', // Añadir esto
         'email', 
         'fingerprint_hash', 
         'photo_path', 
